@@ -20,7 +20,7 @@ go-libp2p-connmgr
 ## Install
 
 ```sh
-go get github.com/libp2p/go-libp2p-connmgr
+go get github.com/b582q9/go-libp2p-connmgr
 ```
 
 ## Contribute

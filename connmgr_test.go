@@ -360,7 +360,7 @@ func TestGracePeriod(t *testing.T) {
 	}
 }
 
-// see https://github.com/libp2p/go-libp2p-connmgr/issues/23
+// see https://github.com/b582q9/go-libp2p-connmgr/issues/23
 func TestQuickBurstRespectsSilencePeriod(t *testing.T) {
 	if detectrace.WithRace() {
 		t.Skip("race detector is unhappy with this test")
